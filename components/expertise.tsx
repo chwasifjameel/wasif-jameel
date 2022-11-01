@@ -6,8 +6,8 @@ const Expertise = () => {
           Expertise Area
         </p>
         <p className="text-[12px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
-          I love developing web-based projects but I'm not limited to that. I do
-          Android and iOS app development as well.
+          I love developing web-based projects but I&apos;m not limited to that.
+          I do Android and iOS app development as well.
         </p>
       </div>
       <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start">

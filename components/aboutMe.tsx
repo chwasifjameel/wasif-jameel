@@ -14,12 +14,12 @@ const AboutMe = () => {
             </span>
           </div>
           <p className="pt-8">
-            I'm A Full Stack developer with more than 5 years of experience
+            I&apos;m A Full Stack developer with more than 5 years of experience
             building solutions. I have worked with many remote companies ranging
             from startups to enterprises.
           </p>
           <p className="pt-8">
-            I'm concern about quality, reusability and most importantly{' '}
+            I&apos;m concern about quality, reusability and most importantly{' '}
             <span className="text-[#787D9A] font-semibold">value</span> while
             developing anything.
           </p>

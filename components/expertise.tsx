@@ -6,48 +6,45 @@ const Expertise = () => {
           Expertise Area
         </p>
         <p className="text-[12px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est,
-          eaque repudiandae quaerat sunt voluptate harum distinctio fbg turnt sb
-          gulte.
+          I love developing web-based projects but I'm not limited to that. I do
+          Android and iOS app development as well.
         </p>
       </div>
       <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start">
         <div className="Card1 cursor-pointer my-2">
           <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <img src="/paint-bucket.svg" className="w-[30px] py-3" alt="" />
+            <img src="/laptop.svg" className="w-[30px] py-3" alt="" />
 
             <p className="mb-2 text-lg text-center  tracking-wide">
-              UI UX DESIGN
+              Full Stack Web Development
             </p>
             <p className="text-[14px]  text-center py-4">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far.
+              Have been part of 100+ projects in my professional career.
             </p>
           </p>
         </div>
         <div className="Card1 cursor-pointer my-2 sm:mx-6">
           <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <img src="/dribbble.svg" className="w-[30px] py-3" alt="" />
+            <img src="/mobile.svg" className="w-[30px] py-3" alt="" />
 
             <p className="mb-2 text-lg text-center  tracking-wide">
-              IOS APP DESIGN
+              App Development
             </p>
             <p className="text-[14px] ] text-center py-4">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far.
+              I develop both Android & iOS in React Native.
             </p>
           </p>
         </div>
         <div className="Card1 cursor-pointer my-2">
           <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <img src="/camera.svg" className="w-[30px] py-3" alt="" />
+            <img src="/people.svg" className="w-[30px] py-3" alt="" />
 
             <p className="mb-2 text-lg text-center tracking-wide">
-              PHOTOGRAPHY
+              Consultancy
             </p>
             <p className="text-[14px]  text-center py-4">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far.
+              I help you find the best solution that can save you time and
+              money.
             </p>
           </p>
         </div>

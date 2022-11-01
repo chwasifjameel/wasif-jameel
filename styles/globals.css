@@ -1,0 +1,81 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Montserrat:wght@800&display=swap');
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+  progress::-webkit-progress-bar {
+    background-color: #DBE1F1;
+    border-radius: 7px;
+  }
+  progress::-webkit-progress-value {
+    background-color: #3E4455;
+    border-radius: 7px;
+   
+  }
+
+  .img1:hover .imgHover{
+    display: block;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+    .gallery-cell {
+        height: 386px;
+        padding-right:15px;
+    }
+    @media (min-width: 300px) and (max-width: 420px) {
+        .gallery-cell {
+            height: 300px !important;
+            
+        }
+    }
+    
+    @media (max-width: 640px) {
+        .gallery-cell {
+            padding-right:0;
+        }
+    }
+  
+    .carousel__sliderLarge {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+  
+    /* gives us the illusion of spaces between the slides */
+    .carousel__inner-slideLarge {
+        width: calc(100% - 0px);
+        height: calc(100% - 0px);
+        left: 10px;
+        top: 10px;
+        
+    }
+  .carousel__slider{
+    height: 150px !important;
+  }
+ .navBg{
+  background-color: #EDF1FD !important;
+ }

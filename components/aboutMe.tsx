@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="Section2 py-11">
+    <section className="container mx-auto py-11">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-center py-10">
         <div className="image h-[400px]">
           <img src="/wasif-jameel-secondry.webp" className="h-[100%]" alt="" />
@@ -38,8 +38,12 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center py-12">
-        <div className="flex w-[100%] flex-col justify-center items-center md:justify-start md:items-end ">
-          <div className="md:w-[50%] w-[80%]">
+        <div className="flex w-1/2 flex-col justify-center items-center md:justify-start md:items-end relative">
+          <p className="flex flex-row-reverse items-center justify-start font-bold font-montserrat lg:-rotate-90 absolute left-0 top-[-30px] lg:top-[100px]">
+            <p className="text-xl text-[#3E4455]">Technical Skills</p>
+            &nbsp;&nbsp; <span className="mt-[-12px]">____</span>
+          </p>
+          <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>React.js</p>
               <p>90%</p>
@@ -52,7 +56,7 @@ const AboutMe = () => {
               />
             </div>
           </div>
-          <div className="md:w-[50%] w-[80%]">
+          <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Next.js</p>
               <p>92%</p>
@@ -65,7 +69,33 @@ const AboutMe = () => {
               />
             </div>
           </div>
-          <div className="md:w-[50%] w-[80%] relative">
+          <div className="w-[370px]">
+            <div className="flex justify-between ">
+              <p>Version Control (Git, GitHub, GitLab)</p>
+              <p>92%</p>
+            </div>
+            <div>
+              <progress
+                value="92"
+                max="100"
+                className="w-[100%] h-[5px] rounded-2xl bg-black"
+              />
+            </div>
+          </div>
+          <div className="w-[370px]">
+            <div className="flex justify-between ">
+              <p>React Native</p>
+              <p>92%</p>
+            </div>
+            <div>
+              <progress
+                value="92"
+                max="100"
+                className="w-[100%] h-[5px] rounded-2xl bg-black"
+              />
+            </div>
+          </div>
+          <div className="w-[370px]">
             <div className="flex justify-between">
               <p>Node.js</p>
               <p>97%</p>
@@ -77,14 +107,10 @@ const AboutMe = () => {
                 className="w-[100%] h-[5px] rounded-2xl bg-black"
               />
             </div>
-            <p className="absolute flex flex-row-reverse items-center justify-center -rotate-90 left-[-135px] bottom-[0%] md:bottom-[60%] font-bold font-montserrat">
-              <p className="text-xl text-[#3E4455]">Technical Skills</p>
-              &nbsp;&nbsp; <span className="mt-[-12px]">____</span>
-            </p>
           </div>
         </div>
-        <div className="flex w-[100%] flex-col justify-center items-center md:justify-start md:items-center">
-          <div className="md:w-[50%] w-[80%]">
+        <div className="flex w-1/2 flex-col justify-center items-center md:justify-start md:items-center">
+          <div className="w-[370px]">
             <div className="flex justify-between">
               <p>Databases (MongoDB, MySQL, posgreSQL)</p>
               <p>95%</p>
@@ -97,7 +123,7 @@ const AboutMe = () => {
               />
             </div>
           </div>
-          <div className="md:w-[50%] w-[80%]">
+          <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Typescript</p>
               <p>92%</p>
@@ -110,7 +136,33 @@ const AboutMe = () => {
               />
             </div>
           </div>
-          <div className="md:w-[50%] w-[80%]">
+          <div className="w-[370px]">
+            <div className="flex justify-between ">
+              <p>Gatsby.js</p>
+              <p>92%</p>
+            </div>
+            <div>
+              <progress
+                value="92"
+                max="100"
+                className="w-[100%] h-[5px] rounded-2xl bg-black"
+              />
+            </div>
+          </div>
+          <div className="w-[370px]">
+            <div className="flex justify-between ">
+              <p>Styling (Bootstrap, TailwindCSS, CSS, SCSS)</p>
+              <p>92%</p>
+            </div>
+            <div>
+              <progress
+                value="92"
+                max="100"
+                className="w-[100%] h-[5px] rounded-2xl bg-black"
+              />
+            </div>
+          </div>
+          <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Testing (Jest, Cypress)</p>
               <p>92%</p>

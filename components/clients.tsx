@@ -8,9 +8,7 @@ const Clients = () => {
           My Valuable Clients
         </p>
         <p className="text-[13px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est,
-          eaque repudiandae quaerat sunt voluptate harum distinctio fbg turnt sb
-          gulte.
+          These are some of the most noticeable clients I have worked with.
         </p>
       </div>
 
@@ -53,9 +51,6 @@ const Clients = () => {
                   <Slide className=" px-8" index={6}>
                     <img src="/happy-credit.webp" alt="happy-credit" />
                   </Slide>
-                  <Slide className=" px-8" index={7}>
-                    <img src="/4.png" alt="" />
-                  </Slide>
                 </Slider>
               </div>
             </CarouselProvider>
@@ -96,9 +91,6 @@ const Clients = () => {
                   </Slide>
                   <Slide className="carousel__inner-slideLarge px-2" index={6}>
                     <img src="/happy-credit.webp" alt="happy-credit" />
-                  </Slide>
-                  <Slide className="carousel__inner-slideLarge px-2" index={7}>
-                    <img src="/4.png" alt="" />
                   </Slide>
                 </Slider>
               </div>

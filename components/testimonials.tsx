@@ -2,9 +2,9 @@ const Testimonials = () => {
   return (
     <section className="Section6 pt-12 md:pb-28 pb-12">
       <div className="flex flex-col justify-center items-center">
-        <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356]">
+        <h1 className="font-montserrat text-5xl pt-11 pb-6 text-[#3E4356]">
           Testimonials
-        </p>
+        </h1>
         <p className="text-[13px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est,
           eaque repudiandae quaerat sunt voluptate harum distinctio fbg turnt sb

@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="Section9 bg-[#F8F9FE] py-12 pb-12 flex flex-row justify-start xl:justify-between px-8 relative">
+    <section className="Section9 bg-[#F8F9FE] py-32 flex flex-col md:flex-row justify-start xl:justify-between px-8 relative">
       <div>
         <div className="flex items-center justify-start pb-8">
           <span className="text-gray-500 mt-[-12px]">____</span>
@@ -11,31 +11,33 @@ const Contact = () => {
         </div>
         <span className="flex ">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <img
-            src="/instagram.svg"
-            className="mr-2 pb-6 blur-[0.5px]"
-            alt="icon"
-          />
-          <img
-            src="/world.svg"
-            className="mx-2  pb-6 blur-[0.5px]"
-            alt="icon"
-          />
-          <img
-            src="/tumblr.svg"
-            className="mx-2 pb-6 blur-[0.5px]"
-            alt="icon"
-          />
-          <img
-            src="/twitter.svg"
-            className="mx-2 pb-6 blur-[0.5px]"
-            alt="icon"
-          />
-          <img src="/vimeo.svg" className="mx-2 pb-6 blur-[0.5px]" alt="icon" />
+          <a href="https://www.linkedin.com/in/chwasifjameel/" target="__blank">
+            <img
+              src="/linkedin.svg"
+              className="mr-2 pb-6 blur-[0.5px] cursor-pointer"
+              alt="icon"
+              width={17}
+              height={17}
+            />
+          </a>
+          <a href="http://twitter.com/chwasifjameel" target="__blank">
+            <img
+              src="/twitter.svg"
+              className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
+              alt="icon"
+            />
+          </a>
+          <a href="http://instagram.com/chwasifjameel" target="__blank">
+            <img
+              src="/instagram.svg"
+              className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
+              alt="icon"
+            />
+          </a>
         </span>
       </div>
-      <div />
-      <div className="Form w-full sm:w-[450px] px-6 py-8 shadow-2xl bg-white mt-12 lg:mt-0 absolute right-[10%] top-[-70%]">
+      <div className="hidden md:block" />
+      <form className="w-full sm:w-[450px] px-6 py-8 shadow-2xl bg-white mt-12 lg:mt-0 md:absolute right-[10%] top-[-70%]">
         <div className="flex items-center border-b border-gray-300 py-2 pt-12 bg-white">
           <input
             className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
@@ -73,7 +75,7 @@ const Contact = () => {
             <span className="">HIRE ME</span>
           </div>
         </div>
-      </div>
+      </form>
     </section>
   );
 };

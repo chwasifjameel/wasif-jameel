@@ -111,45 +111,7 @@ const News = () => {
           more visual or Conceptual ?{' '}
           <span className="text-black">Just Say Hello !</span>
         </div>
-        <div className="Form w-full sm:w-[450px] px-6 py-8 shadow-2xl lg:absolute lg:-bottom-[18%] xl:-bottom-[20%] md:right-[8%] lg:right-[10%] 2xl:right-[15%] bg-white mt-12 lg:mt-0">
-          <div className="flex items-center border-b border-gray-300 py-2 pt-12 bg-white">
-            <input
-              className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
-              type="text"
-              placeholder="Your Name"
-              aria-label="Full name"
-            />
-          </div>
-          <div className="flex items-center border-b border-gray-300 py-2 pt-12 bg-white">
-            <input
-              className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
-              type="text"
-              placeholder="Mail Address"
-              aria-label="Full name"
-            />
-          </div>
-          <div className="flex items-center border-b border-gray-300 py-2 pt-12 bg-white">
-            <input
-              className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
-              type="text"
-              placeholder="Your Budget(Optional)"
-              aria-label="Full name"
-            />
-          </div>
-          <div className="flex items-center border-b border-gray-300 py-2 pt-12 bg-white">
-            <input
-              className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
-              type="text"
-              placeholder="Project Description"
-              aria-label="Full name"
-            />
-          </div>
-          <div className="w-full flex items-center justify-end pb-12 pt-12 bg-white">
-            <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
-              <span className="">HIRE ME</span>
-            </div>
-          </div>
-        </div>
+
         <div></div>
       </div>
     </section>

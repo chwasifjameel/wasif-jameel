@@ -102,8 +102,7 @@ const Resume = () => {
                 Software Engineer
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                excepturi dicta cumque impedit sit enim.
+                Completed numerous projects working as a freelancer on Upwork.
               </p>
               <p className="text-[12px]  text-start  text-black opacity-[0.5]">
                 freelancer at Upwork
@@ -119,8 +118,8 @@ const Resume = () => {
                 Web Developer
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-                excepturi dicta cumque impedit sit enim.
+                Developed many complex web applications having marketing
+                softwares and tracking involved.
               </p>
               <p className="text-[12px]  text-start  text-black opacity-[0.5]">
                 Intermedia Marketing Group
@@ -136,9 +135,9 @@ const Resume = () => {
                 Software Engineer
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                Working on the production of a new product in the latest
-                technologies managing the product myself <br />
-                Own the responsibility of leading the development team
+                Worked on the production of a new product managing the product
+                <br />
+                Owned the responsibility of leading the development team
               </p>
               <p className="text-[12px]  text-start  text-black opacity-[0.5]">
                 MTBC (now CareCloud)

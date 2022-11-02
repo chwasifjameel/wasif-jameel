@@ -31,9 +31,9 @@ export default function Home() {
       <FeaturedWork />
       <Resume />
       <Testimonials />
-      <Clients />
       <HireMe />
-      <News />
+      <Clients />
+      {/* <News /> */}
       <Contact />
     </div>
   );

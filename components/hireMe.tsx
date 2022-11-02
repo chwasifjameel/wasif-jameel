@@ -9,7 +9,7 @@ const HireMe = () => {
       </p>
       <div className="w-full flex items-center justify-center pb-12">
         <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:animate-pulse hover:bg-[#2f313d]">
-          <span className="">HIRE ME</span>
+          <span className="">SEND HI</span>
         </div>
       </div>
     </section>

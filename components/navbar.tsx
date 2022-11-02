@@ -6,7 +6,7 @@ const Footer = () => {
       <Navbar className="navBg">
         <Navbar.Brand href="#">
           <div className="self-center text-4xl font-semibold whitespace-nowrap font-montserrat text-gray-700">
-            Ozlan
+            Wasif
           </div>
         </Navbar.Brand>
         <Navbar.Toggle />

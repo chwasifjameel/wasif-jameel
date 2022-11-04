@@ -59,7 +59,7 @@ const Hero = () => {
 
         <div className="heroImage lg:ml-[-25%] 2xl:ml-[-15%] relative">
           <img
-            src="/wasif-jameel-main.webp"
+            src="/wasif-jameel-main.png"
             className="h-[100%] lg:w-[600px]"
             alt="person"
           />

@@ -34,7 +34,7 @@ const Clients = () => {
                     />
                   </Slide>
                   <Slide className=" px-8" index={1}>
-                    <img src="/smart-tipz-logo.svg" alt="smart tipz" />
+                    <img src="/smart-tipz-logo.png" alt="smart tipz" />
                   </Slide>
                   <Slide className=" px-8" index={2}>
                     <img src="/windswept.png" alt="windswept" />
@@ -43,7 +43,7 @@ const Clients = () => {
                     <img src="/crowdbotics.png" alt="crowdbotics" />
                   </Slide>
                   <Slide className=" px-8" index={4}>
-                    <img src="/2marketing.svg" alt="2marketing" />
+                    <img src="/2marketing.png" alt="2marketing" />
                   </Slide>
                   <Slide className=" px-8" index={5}>
                     <img src="/gulf-academy.png" alt="gulf academy" />
@@ -75,7 +75,7 @@ const Clients = () => {
                     />
                   </Slide>
                   <Slide className="carousel__inner-slideLarge px-2" index={1}>
-                    <img src="/smart-tipz-logo.svg" alt="smart tipz" />
+                    <img src="/smart-tipz-logo.png" alt="smart tipz" />
                   </Slide>
                   <Slide className="carousel__inner-slideLarge px-2" index={2}>
                     <img src="/windswept.png" alt="windswept" />
@@ -84,7 +84,7 @@ const Clients = () => {
                     <img src="/crowdbotics.png" alt="crowdbotics" />
                   </Slide>
                   <Slide className="carousel__inner-slideLarge px-2" index={4}>
-                    <img src="/2marketing.svg" alt="2marketing" />
+                    <img src="/2marketing.png" alt="2marketing" />
                   </Slide>
                   <Slide className="carousel__inner-slideLarge px-2" index={5}>
                     <img src="/gulf-academy.png" alt="gulf academy" />

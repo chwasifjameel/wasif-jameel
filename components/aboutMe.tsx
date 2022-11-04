@@ -3,7 +3,7 @@ const AboutMe = () => {
     <section className="container mx-auto py-11">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-center py-10">
         <div className="image h-[400px]">
-          <img src="/wasif-jameel-secondry.webp" className="h-[100%]" alt="" />
+          <img src="/wasif-jameel-secondry.png" className="h-[100%]" alt="" />
         </div>
         <div className="aboutMe w-[70%] md:w-[30%]  pt-10 md:pl-11">
           <div className="flex items-center justify-start ">

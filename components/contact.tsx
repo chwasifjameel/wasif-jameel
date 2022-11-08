@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Contact = () => {
   return (
     <section className="Section9 bg-[#F8F9FE] py-32 flex flex-col md:flex-row justify-start xl:justify-between px-8 relative">
@@ -11,27 +13,27 @@ const Contact = () => {
         </div>
         <span className="flex ">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://www.linkedin.com/in/chwasifjameel/" target="__blank">
-            <img
-              src="/linkedin.svg"
-              className="mr-2 pb-6 blur-[0.5px] cursor-pointer"
-              alt="icon"
-              width={17}
-              height={17}
-            />
+          <a
+            href="https://www.linkedin.com/in/chwasifjameel"
+            target="__blank"
+            className="cursor-pointer mr-6 rounded rounded-full relative">
+            <Image src="/linkedin.svg" alt="linkedin" width={20} height={20} />
           </a>
-          <a href="http://twitter.com/chwasifjameel" target="__blank">
-            <img
-              src="/twitter.svg"
-              className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
-              alt="icon"
-            />
+          <a
+            href="http://twitter.com/chwasifjameel"
+            target="__blank"
+            className="cursor-pointer mr-6 rounded rounded-full relative">
+            <Image src="/twitter.svg" alt="twitter" width={20} height={20} />
           </a>
-          <a href="http://instagram.com/chwasifjameel" target="__blank">
-            <img
+          <a
+            href="http://instagram.com/chwasifjameel"
+            target="__blank"
+            className="cursor-pointer rounded rounded-full relative">
+            <Image
               src="/instagram.svg"
-              className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
-              alt="icon"
+              alt="instagram"
+              width={19}
+              height={19}
             />
           </a>
         </span>

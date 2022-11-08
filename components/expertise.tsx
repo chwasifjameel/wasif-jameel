@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Expertise = () => {
   return (
     <section className="Section3  bg-[#EDF1FD] py-12">
@@ -13,8 +15,15 @@ const Expertise = () => {
       <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start">
         <div className="Card1 cursor-pointer my-2">
           <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <img src="/laptop.svg" className="w-[30px] py-3" alt="" />
-
+            <Image
+              alt="laptop"
+              src="/laptop.svg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              quality={100}
+              className="w-[30px] h-8 my-3"
+            />
             <p className="mb-2 text-lg text-center  tracking-wide">
               Full Stack Web Development
             </p>
@@ -25,8 +34,15 @@ const Expertise = () => {
         </div>
         <div className="Card1 cursor-pointer my-2 sm:mx-6">
           <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <img src="/mobile.svg" className="w-[30px] py-3" alt="" />
-
+            <Image
+              alt="mobile"
+              src="/mobile.svg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              quality={100}
+              className="w-[30px] h-8 my-3"
+            />
             <p className="mb-2 text-lg text-center  tracking-wide">
               App Development
             </p>
@@ -37,8 +53,15 @@ const Expertise = () => {
         </div>
         <div className="Card1 cursor-pointer my-2">
           <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <img src="/people.svg" className="w-[30px] py-3" alt="" />
-
+            <Image
+              alt="people"
+              src="/people.svg"
+              width="0"
+              height="0"
+              sizes="100vw"
+              quality={100}
+              className="w-[30px] h-8 my-3"
+            />
             <p className="mb-2 text-lg text-center tracking-wide">
               Consultancy
             </p>
@@ -50,7 +73,15 @@ const Expertise = () => {
         </div>
       </div>
       <div className="flex justify-center pb-11">
-        <img src="/more.svg" className="h-[30px]" alt="" />
+        <Image
+          alt="more"
+          src="/more.svg"
+          width="0"
+          height="0"
+          sizes="100vw"
+          quality={100}
+          className="w-[30px] h-8 "
+        />
       </div>
     </section>
   );

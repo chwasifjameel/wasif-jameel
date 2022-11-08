@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Testimonials = () => {
   return (
     <section className="Section6 pt-12 md:pb-28 pb-12">
@@ -6,93 +8,93 @@ const Testimonials = () => {
           Testimonials
         </h1>
         <p className="text-[13px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero est,
-          eaque repudiandae quaerat sunt voluptate harum distinctio fbg turnt sb
-          gulte.
+          Here is what my most recent clients want to say about my me.
         </p>
       </div>
 
-      <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start gap-y-8 sm:gap-y-0 sm:gap-x-8">
-        <div className="Card1 cursor-pointer my-2">
-          <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <div className="w-full flex flex-col items-center justify-center gap-8 pb-2">
-              <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
-                <img src="quote-right.svg" className="h-[100%]" alt="" />
-              </div>
-              <p className="font-[16px] italic font-serif">
-                &quot;Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry&apos;s
-                standard dummy text ever since the 1500s&quot;
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="rounded-full w-16 h-16 bg-black overflow-hidden">
-                  <img src="/person.png" alt="imgs" />
-                </div>
-                <div className="flex flex-col tracking-wider">
-                  <label className="text-gray-600  font-light">
-                    Garry Toris
-                  </label>
-                  <label className="text-gray-400 font-light text-sm">
-                    CEO at Marvel Theme
-                  </label>
-                </div>
+      <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start gap-y-4 sm:gap-y-0 sm:gap-x-8">
+        <div className="cursor-pointer my-2">
+          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+            <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
+              <Image
+                src="/quote-right.svg"
+                alt="quote right"
+                width={50}
+                height={50}
+              />
+            </div>
+            <p className="font-[16px] italic font-serif">
+              &quot;This was a long-termed project with Wasif, we had a lot of
+              meetings back and forth about the implementations and it all
+              worked very well. <br /> Even with tight deadlines and meetings in
+              the evening hours - Wasif was flexible and met all of our
+              requirements.&quot;
+            </p>
+            <div className="flex items-end">
+              <div className="flex flex-col tracking-wider">
+                <label className="text-gray-600  font-light">
+                  Magnus Ejlskov
+                </label>
+                <label className="text-gray-400 font-light text-sm">
+                  Creator of ejlskov.design
+                </label>
               </div>
             </div>
-          </p>
+          </div>
         </div>
-        <div className="Card1 cursor-pointer my-2">
-          <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <div className="w-full flex flex-col items-center justify-center gap-8 pb-2">
-              <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
-                <img src="quote-right.svg" className="h-[100%]" alt="" />
-              </div>
-              <p className="font-[16px] italic font-serif">
-                &quot;Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry&apos;s
-                standard dummy text ever since the 1500s&quot;
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="rounded-full w-16 h-16 bg-black overflow-hidden">
-                  <img src="/about.jpg" alt="imgs" />
-                </div>
-                <div className="flex flex-col tracking-wider">
-                  <label className="text-gray-600  font-light">
-                    Jacob Reid
-                  </label>
-                  <label className="text-gray-400 font-light text-sm">
-                    Photographer
-                  </label>
-                </div>
+        <div className="cursor-pointer my-2">
+          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+            <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
+              <Image
+                src="/quote-right.svg"
+                alt="quote right"
+                width={50}
+                height={50}
+              />
+            </div>
+            <p className="font-[16px] italic font-serif">
+              &quot;Simply put: Wasif is absolutely one of the best web
+              developers I know. Without a doubt. He not only writes beautiful
+              code, but he also does research, spends time understanding and
+              editing where needed and is really communicative, and is updating
+              me regularly. <br /> Just hire him and you&apos;ll agree!&quot;
+            </p>
+            <div className="flex items-end">
+              <div className="flex flex-col tracking-wider">
+                <label className="text-gray-600  font-light">Anna Rose</label>
+                <label className="text-gray-400 font-light text-sm">
+                  Crowdbotics
+                </label>
               </div>
             </div>
-          </p>
+          </div>
         </div>
-        <div className="Card1 cursor-pointer my-2">
-          <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
-            <div className="w-full flex flex-col items-center justify-center gap-8 pb-2">
-              <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
-                <img src="quote-right.svg" className="h-[100%]" alt="" />
-              </div>
-              <p className="font-[16px] italic font-serif">
-                &quot;Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry&apos;s
-                standard dummy text ever since the 1500s&quot;
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="rounded-full w-16 h-16 bg-black overflow-hidden">
-                  <img src="/laptop.jpg" alt="imgs" />
-                </div>
-                <div className="flex flex-col tracking-wider">
-                  <label className="text-gray-600  font-light">
-                    Diana Austin
-                  </label>
-                  <label className="text-gray-400 font-light text-sm">
-                    CEO at Jems
-                  </label>
-                </div>
+        <div className="cursor-pointer my-2">
+          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+            <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
+              <Image
+                src="/quote-right.svg"
+                alt="quote right"
+                width={50}
+                height={50}
+              />
+            </div>
+            <p className="font-[16px] italic font-serif">
+              &quot;Very satisfied with the end product and interaction! Will
+              surely continue collaboration with Wasif and his professional
+              team. One of the best providers I worked with&quot;
+            </p>
+            <div className="flex items-end">
+              <div className="flex flex-col tracking-wider">
+                <label className="text-gray-600  font-light">
+                  Alfred Carmin
+                </label>
+                <label className="text-gray-400 font-light text-sm">
+                  Owner of Alfred Carmin
+                </label>
               </div>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </section>

@@ -1,6 +1,8 @@
+import Image from 'next/image';
+
 const Hero = () => {
   return (
-    <section className="HeroSection min-h-screen bg-[#EDF1FD] flex flex-col ">
+    <section className="bg-[#EDF1FD] flex flex-col ">
       <div className="flex-1 flex justify-center md:justify-between px-4 sm:px-12 md:px-32 pt-5 flex-col lg:flex-row">
         <div className="flex items-center justify-center flex-col">
           <div className="heroText   flex items-start justify-center flex-col">
@@ -28,45 +30,61 @@ const Hero = () => {
             </div>
             <span className="flex pt-5 ">
               <a
-                href="https://www.linkedin.com/in/chwasifjameel/"
-                target="__blank">
-                <img
+                href="https://www.linkedin.com/in/chwasifjameel"
+                target="__blank"
+                className="cursor-pointer mr-6 rounded rounded-full relative">
+                <Image
                   src="/linkedin.svg"
-                  className="mr-2 pb-6 blur-[0.5px] cursor-pointer"
-                  alt="icon"
-                  width={17}
-                  height={17}
+                  alt="linkedin"
+                  width={20}
+                  height={20}
                 />
               </a>
-              <a href="http://twitter.com/chwasifjameel" target="__blank">
-                <img
+              <a
+                href="http://twitter.com/chwasifjameel"
+                target="__blank"
+                className="cursor-pointer mr-6 rounded rounded-full relative">
+                <Image
                   src="/twitter.svg"
-                  className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
-                  alt="icon"
+                  alt="twitter"
+                  width={20}
+                  height={20}
                 />
               </a>
-
-              <a href="http://instagram.com/chwasifjameel" target="__blank">
-                <img
+              <a
+                href="http://instagram.com/chwasifjameel"
+                target="__blank"
+                className="cursor-pointer rounded rounded-full relative">
+                <Image
                   src="/instagram.svg"
-                  className="mx-2 pb-6 blur-[0.5px] cursor-pointer"
-                  alt="icon"
+                  alt="instagram"
+                  width={19}
+                  height={19}
                 />
               </a>
             </span>
           </div>
         </div>
 
-        <div className="heroImage lg:ml-[-25%] 2xl:ml-[-15%] relative">
-          <img
+        <div className="flex items-end lg:ml-[-25%] 2xl:ml-[-15%] relative">
+          <Image
             src="/wasif-jameel-main.png"
-            className="h-[100%] lg:w-[600px]"
-            alt="person"
+            blurDataURL="/wasif-jameel-main.png"
+            alt="Wasif Jameel"
+            width="600"
+            height="917"
+            quality={100}
+            placeholder="blur"
           />
           <p className="absolute flex items-center rotate-90 right-[-50px] top-[70%] font-semibold">
             SCROLL DOWN &nbsp;{' '}
             <span>
-              <img src="/arrow-right.svg" className="" alt="icon" />
+              <Image
+                src="/arrow-right.svg"
+                alt="Wasif Jameel"
+                width="30"
+                height="30"
+              />
             </span>{' '}
           </p>
         </div>

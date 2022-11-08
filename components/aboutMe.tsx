@@ -1,9 +1,16 @@
+import Image from 'next/image';
+
 const AboutMe = () => {
   return (
     <section className="container mx-auto py-11">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-center py-10">
         <div className="image h-[400px]">
-          <img src="/wasif-jameel-secondry.png" className="h-[100%]" alt="" />
+          <Image
+            src="/wasif-jameel-secondry.png"
+            width={411}
+            height={400}
+            alt="wasif jameel"
+          />
         </div>
         <div className="aboutMe w-[70%] md:w-[30%]  pt-10 md:pl-11">
           <div className="flex items-center justify-start ">
@@ -29,10 +36,16 @@ const AboutMe = () => {
               <span className="">HIRE ME</span>
             </div>
             &nbsp;
-            <div className="bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
-              <span>
-                <img src="/rightlong.png" alt="" />
-              </span>
+            <div className="flex items-center bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
+              <Image
+                alt="rightlong"
+                src="/rightlong.png"
+                width="0"
+                height="0"
+                sizes="100vw"
+                quality={100}
+                className="w-full h-8"
+              />
             </div>
           </div>
         </div>

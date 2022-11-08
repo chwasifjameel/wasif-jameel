@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Resume = () => {
   return (
     <section className="Section5  bg-[#F8F9FE] py-12">
@@ -13,9 +15,7 @@ const Resume = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start md:space-x-10">
         <div className="py-8 flex justify-center flex-col flex-wrap items-center sm:items-start">
           <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356] flex items-center justify-center w-full">
-            <span>
-              <img src="/crown.svg" alt="" />
-            </span>
+            <Image src="/crown.svg" alt="crown" width={20} height={20} />
             &nbsp; Education
           </p>
           <div className="cursor-pointer my-2 w-96">
@@ -73,7 +73,12 @@ const Resume = () => {
         <div className="py-8 flex justify-center flex-col items-center sm:items-start ml-0">
           <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356] flex items-center justify-center w-full">
             <span>
-              <img src="/briefcase.svg" alt="" />
+              <Image
+                src="/briefcase.svg"
+                alt="briefcase"
+                width={20}
+                height={20}
+              />
             </span>
             &nbsp; Experience
           </p>

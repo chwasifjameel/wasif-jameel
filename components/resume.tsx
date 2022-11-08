@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Resume = () => {
   return (
-    <section className="Section5  bg-[#F8F9FE] py-12">
+    <section className="Section5  bg-[#F8F9FE] py-12" id="resume">
       <div className="flex flex-col justify-center items-center">
         <h1 className="font-montserrat text-5xl pt-11 pb-6 text-[#3E4356]">
           Resume

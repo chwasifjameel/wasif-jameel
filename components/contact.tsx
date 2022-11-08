@@ -2,7 +2,9 @@ import Image from 'next/image';
 
 const Contact = () => {
   return (
-    <section className="Section9 bg-[#F8F9FE] py-32 flex flex-col md:flex-row justify-start xl:justify-between px-8 relative">
+    <section
+      className="Section9 bg-[#F8F9FE] py-32 flex flex-col md:flex-row justify-start xl:justify-between px-8 relative"
+      id="contact">
       <div>
         <div className="flex items-center justify-start pb-8">
           <span className="text-gray-500 mt-[-12px]">____</span>

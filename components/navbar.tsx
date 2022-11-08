@@ -12,13 +12,36 @@ const Footer = () => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <ul className="flex flex-col p-4 mt-4  rounded-lg  border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-">
-            <li className="cursor-pointer">HOME</li>
-            <li className="cursor-pointer">ABOUT</li>
-            <li className="cursor-pointer">PORTFOLIO</li>
-            <li className="cursor-pointer">SERVICES</li>
-            <li className="cursor-pointer">RESUME</li>
-            <li className="cursor-pointer">BLOG</li>
-            <li className="cursor-pointer">CONTACT</li>
+            <li>
+              <a className="cursor-pointer" href="#hero">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer" href="#about-me">
+                ABOUT
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer" href="#featured-work">
+                PORTFOLIO
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer" href="#expertise">
+                SERVICES
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer" href="#resume">
+                RESUME
+              </a>
+            </li>
+            <li>
+              <a className="cursor-pointer" href="#contact">
+                CONTACT
+              </a>
+            </li>
           </ul>
         </Navbar.Collapse>
       </Navbar>

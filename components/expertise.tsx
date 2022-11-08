@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Expertise = () => {
   return (
-    <section className="Section3  bg-[#EDF1FD] py-12">
+    <section className="Section3  bg-[#EDF1FD] py-12" id="expertise">
       <div className="flex flex-col justify-center items-center">
         <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356]">
           Expertise Area

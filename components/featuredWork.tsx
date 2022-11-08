@@ -1,6 +1,6 @@
 const FeaturedWork = () => {
   return (
-    <section className="Section4 py-12">
+    <section className="Section4 py-12" id="featured-work">
       <div className="flex flex-col justify-center items-center">
         <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356]">
           Featured Works

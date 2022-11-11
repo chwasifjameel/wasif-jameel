@@ -28,7 +28,7 @@ export default function Home() {
       <Hero />
       <AboutMe />
       <Expertise />
-      <FeaturedWork />
+      {/* <FeaturedWork /> */}
       <Resume />
       <Testimonials />
       <HireMe />

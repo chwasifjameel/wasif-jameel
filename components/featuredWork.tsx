@@ -31,34 +31,7 @@ const FeaturedWork = () => {
           Illustration
         </span>
       </div>
-      <div className="container mx-auto">
-        <div className="grid-cols-3 p-10 md:p-20 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-2">
-          <div className="w-full rounded relative img1">
-            <img src="/laptop.jpg" className="h-[100%]" alt="" />
-            <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover"></div>
-          </div>
-          <div className="w-full rounded relative img1">
-            <img src="/hardware.jpg" alt="" className="h-full" />
-            <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover"></div>
-          </div>
-          <div className="w-full  rounded relative img1">
-            <img src="/headphone.jpg" alt="" className="h-full" />
-            <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover"></div>
-          </div>
-          <div className="w-full rounded relative img1">
-            <img src="/cup.jpg" alt="" className="h-full" />
-            <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover"></div>
-          </div>
-          <div className="w-full rounded relative img1">
-            <img src="/shoes.jpg" alt="" className="h-full" />
-            <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover"></div>
-          </div>
-          <div className="w-full rounded relative img1">
-            <img src="/cam.jpg" alt="" className="h-full" />
-            <div className="absolute h-full w-full bg-black opacity-[0.5] top-0 bottom-0 left-0 right-0 cursor-pointer hidden imgHover"></div>
-          </div>
-        </div>
-      </div>
+      <div className="container mx-auto">{/* Portfolio */}</div>
     </section>
   );
 };

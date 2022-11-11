@@ -96,6 +96,90 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
+        <div className="cursor-pointer my-2">
+          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+            <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
+              <Image
+                src="/quote-right.svg"
+                alt="quote right"
+                width={50}
+                height={50}
+              />
+            </div>
+            <p className="font-[16px] italic font-serif">
+              &quot;Wasif is very professional and knowledgable. Understands
+              tasks correctly and has great communication. I truly recommend
+              him! <br />
+              Thank you&quot;
+            </p>
+            <div className="flex items-end">
+              <div className="flex flex-col tracking-wider">
+                <label className="text-gray-600  font-light">
+                  Erkki Dreiak
+                </label>
+                <label className="text-gray-400 font-light text-sm">
+                  Developer
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="cursor-pointer my-2">
+          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+            <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
+              <Image
+                src="/quote-right.svg"
+                alt="quote right"
+                width={50}
+                height={50}
+              />
+            </div>
+            <p className="font-[16px] italic font-serif">
+              &quot;Once again, great work from Wasif. Mobile app completed from
+              scratch within timelines.
+              <br />
+              Wasif goes above and beyond for his clients!&quot;
+            </p>
+            <div className="flex items-end">
+              <div className="flex flex-col tracking-wider">
+                <label className="text-gray-600  font-light">
+                  Matthew Venter
+                </label>
+                <label className="text-gray-400 font-light text-sm">
+                  My Smart Systems
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="cursor-pointer my-2">
+          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+            <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
+              <Image
+                src="/quote-right.svg"
+                alt="quote right"
+                width={50}
+                height={50}
+              />
+            </div>
+            <p className="font-[16px] italic font-serif">
+              &quot;High quality delivery. - On time. - Reasonable price. A 5
+              star work. The outputs always exceed the expectations and he never
+              disappointed me.
+              <br /> It was a good decision to hire him for my projects.&quot;
+            </p>
+            <div className="flex items-end">
+              <div className="flex flex-col tracking-wider">
+                <label className="text-gray-600  font-light">
+                  Talal Alyamani
+                </label>
+                <label className="text-gray-400 font-light text-sm">
+                  The Gulf Academy
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

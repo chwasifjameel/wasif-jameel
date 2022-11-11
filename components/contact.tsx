@@ -76,7 +76,7 @@ const Contact = () => {
         </div>
         <div className="w-full flex items-center justify-end pb-12 pt-12 bg-white">
           <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
-            <span className="">HIRE ME</span>
+            <span className="">CONTACT ME</span>
           </div>
         </div>
       </form>

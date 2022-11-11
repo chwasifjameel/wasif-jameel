@@ -32,11 +32,15 @@ const AboutMe = () => {
           </p>
 
           <div className="flex pt-8 mt-2">
-            <div className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
+            <a
+              href="mailto:wasif.jameel1@gmail.com"
+              className="bg-[#3E4356] text-white px-7 py-4 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
               <span className="">HIRE ME</span>
-            </div>
+            </a>
             &nbsp;
-            <div className="flex items-center bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
+            <a
+              href="mailto:wasif.jameel1@gmail.com"
+              className="flex items-center bg-[#3E4356] text-white px-6 text-[12px] cursor-pointer w-fit hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
               <Image
                 alt="rightlong"
                 src="/rightlong.png"
@@ -46,7 +50,7 @@ const AboutMe = () => {
                 quality={100}
                 className="w-full h-8"
               />
-            </div>
+            </a>
           </div>
         </div>
       </div>

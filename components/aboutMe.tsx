@@ -59,6 +59,32 @@ const AboutMe = () => {
           <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>React.js</p>
+              <p>95%</p>
+            </div>
+            <div>
+              <progress
+                value="95"
+                max="100"
+                className="w-[100%] h-[5px] rounded-2xl bg-black"
+              />
+            </div>
+          </div>
+          <div className="w-[370px]">
+            <div className="flex justify-between ">
+              <p>Next.js</p>
+              <p>85%</p>
+            </div>
+            <div>
+              <progress
+                value="85"
+                max="100"
+                className="w-[100%] h-[5px] rounded-2xl bg-black"
+              />
+            </div>
+          </div>
+          <div className="w-[370px]">
+            <div className="flex justify-between ">
+              <p>Version Control (Git, GitHub, GitLab)</p>
               <p>90%</p>
             </div>
             <div>
@@ -71,38 +97,12 @@ const AboutMe = () => {
           </div>
           <div className="w-[370px]">
             <div className="flex justify-between ">
-              <p>Next.js</p>
-              <p>92%</p>
-            </div>
-            <div>
-              <progress
-                value="92"
-                max="100"
-                className="w-[100%] h-[5px] rounded-2xl bg-black"
-              />
-            </div>
-          </div>
-          <div className="w-[370px]">
-            <div className="flex justify-between ">
-              <p>Version Control (Git, GitHub, GitLab)</p>
-              <p>92%</p>
-            </div>
-            <div>
-              <progress
-                value="92"
-                max="100"
-                className="w-[100%] h-[5px] rounded-2xl bg-black"
-              />
-            </div>
-          </div>
-          <div className="w-[370px]">
-            <div className="flex justify-between ">
               <p>React Native</p>
-              <p>92%</p>
+              <p>85%</p>
             </div>
             <div>
               <progress
-                value="92"
+                value="85"
                 max="100"
                 className="w-[100%] h-[5px] rounded-2xl bg-black"
               />
@@ -126,11 +126,11 @@ const AboutMe = () => {
           <div className="w-[370px]">
             <div className="flex justify-between">
               <p>Databases (MongoDB, MySQL, posgreSQL)</p>
-              <p>95%</p>
+              <p>90%</p>
             </div>
             <div>
               <progress
-                value="95"
+                value="90"
                 max="100"
                 className=" w-[100%] h-[5px] rounded-2xl bg-black"
               />
@@ -139,11 +139,11 @@ const AboutMe = () => {
           <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Typescript</p>
-              <p>92%</p>
+              <p>93%</p>
             </div>
             <div>
               <progress
-                value="92"
+                value="93"
                 max="100"
                 className="w-[100%] h-[5px] rounded-2xl bg-black"
               />
@@ -152,11 +152,11 @@ const AboutMe = () => {
           <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Gatsby.js</p>
-              <p>92%</p>
+              <p>88%</p>
             </div>
             <div>
               <progress
-                value="92"
+                value="88"
                 max="100"
                 className="w-[100%] h-[5px] rounded-2xl bg-black"
               />
@@ -165,11 +165,11 @@ const AboutMe = () => {
           <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Styling (Bootstrap, TailwindCSS, CSS, SCSS)</p>
-              <p>92%</p>
+              <p>90%</p>
             </div>
             <div>
               <progress
-                value="92"
+                value="90"
                 max="100"
                 className="w-[100%] h-[5px] rounded-2xl bg-black"
               />
@@ -178,11 +178,11 @@ const AboutMe = () => {
           <div className="w-[370px]">
             <div className="flex justify-between ">
               <p>Testing (Jest, Cypress)</p>
-              <p>92%</p>
+              <p>80%</p>
             </div>
             <div>
               <progress
-                value="92"
+                value="80"
                 max="100"
                 className="w-[100%] h-[5px] rounded-2xl bg-black"
               />

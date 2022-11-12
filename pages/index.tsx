@@ -11,7 +11,7 @@ import Resume from '../components/resume';
 import Testimonials from '../components/testimonials';
 import Clients from '../components/clients';
 import HireMe from '../components/hireMe';
-import News from '../components/news';
+import VideoTestimonials from '../components/videoTestimonials';
 import Contact from '../components/contact';
 
 export default function Home() {
@@ -30,10 +30,10 @@ export default function Home() {
       <Expertise />
       {/* <FeaturedWork /> */}
       <Resume />
+      <VideoTestimonials />
       <Testimonials />
       <HireMe />
       <Clients />
-      {/* <News /> */}
       <Contact />
     </div>
   );

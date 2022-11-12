@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Testimonials = () => {
   return (
-    <section className="Section6 pt-12 md:pb-28 pb-12">
+    <section className="container mx-auto pt-12 md:pb-28 pb-12">
       <div className="flex flex-col justify-center items-center">
         <h1 className="font-montserrat text-5xl pt-11 pb-6 text-[#3E4356]">
           Testimonials
@@ -12,9 +12,9 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start gap-y-4 sm:gap-y-0 sm:gap-x-8">
-        <div className="cursor-pointer my-2">
-          <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+      <div className="py-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="cursor-pointer my-2 flex justify-center">
+          <div className="h-[470px] m-0 flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
               <Image
                 src="/quote-right.svg"
@@ -42,7 +42,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="cursor-pointer my-2">
+        <div className="cursor-pointer my-2 flex justify-center">
           <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
               <Image
@@ -69,7 +69,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="cursor-pointer my-2">
+        <div className="cursor-pointer my-2 flex justify-center">
           <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
               <Image
@@ -96,7 +96,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="cursor-pointer my-2">
+        <div className="cursor-pointer my-2 flex justify-center">
           <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
               <Image
@@ -124,7 +124,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="cursor-pointer my-2">
+        <div className="cursor-pointer my-2 flex justify-center">
           <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
               <Image
@@ -152,7 +152,7 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="cursor-pointer my-2">
+        <div className="cursor-pointer my-2 flex justify-center">
           <div className="h-[470px] flex flex-col justify-between items-center py-6 px-4 w-[300px] bg-[#EDF1FD] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <div className="h-12 flex justify-end items-end w-full opacity-[0.6]">
               <Image

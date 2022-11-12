@@ -62,14 +62,6 @@ const Contact = () => {
           <input
             className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
             type="text"
-            placeholder="Your Budget(Optional)"
-            aria-label="Full name"
-          />
-        </div>
-        <div className="flex items-center border-b border-gray-300 py-2 pt-12 bg-white">
-          <input
-            className="  border-none w-full text-[#868CA5] mr-3 py-1 px-2 leading-tight font-mono"
-            type="text"
             placeholder="Project Description"
             aria-label="Full name"
           />

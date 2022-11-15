@@ -63,9 +63,9 @@ const FeaturedWork = () => {
   return (
     <section className="Section4 py-12" id="featured-work">
       <div className="flex flex-col justify-center items-center">
-        <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356]">
+        <h1 className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356]">
           Featured Works
-        </p>
+        </h1>
         <p className="text-[12px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
           Some of the most amazing projects I have worked were based on
           React.js, Node.js, Next.js, MongoDB, PostgreSQL, Tailwind, Bootstrap,

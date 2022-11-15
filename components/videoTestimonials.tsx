@@ -4,9 +4,9 @@ const News = () => {
   return (
     <section className="Section8 lg:relative">
       <div className="flex flex-col justify-center items-center pb-16">
-        <p className="font-montserrat text-3xl pt-11 pb-6 text-[#3E4356]">
-          Video Testimonials
-        </p>
+        <h1 className="font-montserrat text-5xl pt-11 pb-6 text-[#3E4356]">
+          Featured Clients
+        </h1>
         <p className="text-[13px] font-light  text-center w-[80%] md:w-[40%] text-[#7a7a7a]">
           Here is what my top clients have to say about me.
         </p>

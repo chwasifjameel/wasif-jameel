@@ -13,9 +13,9 @@ const Hero = () => {
                 HELLO
               </span>
             </div>
-            <p className="font-montserrat text-[50px]">
+            <h1 className="font-montserrat text-[50px]">
               I&apos;m <span className="text-[#717895]"> Wasif </span> Jameel
-            </p>
+            </h1>
             <p className="capitalize text-[12px] w-[75%]">
               this is{' '}
               <span className="text-[#787D9A] font-semibold">

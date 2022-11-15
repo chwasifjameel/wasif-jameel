@@ -74,30 +74,36 @@ const FeaturedWork = () => {
       </div>
 
       <div className="container mx-auto">
-        <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-          {featuredWorkData.map(({ image, title, description }, index) => (
-            <div
-              className="flex flex-col overflow-hidden rounded-lg shadow-lg"
-              key={index}>
-              <div className="flex-shrink-0">
-                <Image
-                  className="h-48 w-full object-cover"
-                  src={image}
-                  alt={image}
-                  width={500}
-                  height={500}
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  {/* <a href="#" className="mt-2 block"> */}
-                  <p className="text-xl font-semibold text-gray-900">{title}</p>
-                  <p className="mt-3 text-base text-gray-500">{description}</p>
-                  {/* </a> */}
+        <div className="mx-2 md:mx-5">
+          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
+            {featuredWorkData.map(({ image, title, description }, index) => (
+              <div
+                className="flex flex-col overflow-hidden rounded-lg shadow-lg"
+                key={index}>
+                <div className="flex-shrink-0">
+                  <Image
+                    className="h-48 w-full object-cover"
+                    src={image}
+                    alt={image}
+                    width={500}
+                    height={500}
+                  />
+                </div>
+                <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                  <div className="flex-1">
+                    {/* <a href="#" className="mt-2 block"> */}
+                    <p className="text-xl font-semibold text-gray-900">
+                      {title}
+                    </p>
+                    <p className="mt-3 text-base text-gray-500">
+                      {description}
+                    </p>
+                    {/* </a> */}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>

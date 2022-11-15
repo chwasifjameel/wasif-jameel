@@ -75,8 +75,10 @@ const FeaturedWork = () => {
 
       <div className="container mx-auto">
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-          {featuredWorkData.map(({ image, title, description }) => (
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+          {featuredWorkData.map(({ image, title, description }, index) => (
+            <div
+              className="flex flex-col overflow-hidden rounded-lg shadow-lg"
+              key={index}>
               <div className="flex-shrink-0">
                 <Image
                   className="h-48 w-full object-cover"

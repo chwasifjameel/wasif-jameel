@@ -1,5 +1,3 @@
-import YouTube from 'react-youtube';
-
 const News = () => {
   return (
     <section className="Section8 lg:relative">
@@ -14,24 +12,24 @@ const News = () => {
 
       <div className="flex flex-col md:flex-row items-center justify-center flex-wrap my-2">
         <div className="p-6">
-          <YouTube
-            className="mb-4"
-            opts={{
-              height: '450',
-              width: 'auto',
-            }}
-            videoId="JJIlOoLNDIM"
-          />
+          <iframe
+            width="auto"
+            height="450"
+            src="https://www.youtube.com/embed/JJIlOoLNDIM"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen></iframe>
         </div>
         <div className="p-6">
-          <YouTube
-            className="mb-4"
-            opts={{
-              height: '450',
-              width: 'auto',
-            }}
-            videoId="04U80oJT1iI"
-          />
+          <iframe
+            width="auto"
+            height="450"
+            src="https://www.youtube.com/embed/04U80oJT1iI"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen></iframe>
         </div>
       </div>
     </section>

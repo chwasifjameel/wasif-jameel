@@ -14,7 +14,7 @@ const Expertise = () => {
       </div>
       <div className="py-8 flex justify-center flex-col sm:flex-row flex-wrap items-center sm:items-start">
         <div className="Card1 cursor-pointer my-2">
-          <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+          <span className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <Image
               alt="laptop"
               src="/laptop.svg"
@@ -30,10 +30,10 @@ const Expertise = () => {
             <p className="text-[14px]  text-center py-4">
               Have been part of 100+ projects in my professional career.
             </p>
-          </p>
+          </span>
         </div>
         <div className="Card1 cursor-pointer my-2 sm:mx-6">
-          <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+          <span className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <Image
               alt="mobile"
               src="/mobile.svg"
@@ -49,10 +49,10 @@ const Expertise = () => {
             <p className="text-[14px] ] text-center py-4">
               I develop both Android & iOS in React Native.
             </p>
-          </p>
+          </span>
         </div>
         <div className="Card1 cursor-pointer my-2">
-          <p className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
+          <span className="flex flex-col items-center py-6 px-4 w-[300px] bg-[#F4F7FF] text-[#737998] rounded border border-gray-200 shadow-md hover:bg-white  hover:text-black hover:scale-[1.1] ease-in duration-100">
             <Image
               alt="people"
               src="/people.svg"
@@ -69,7 +69,7 @@ const Expertise = () => {
               I help you find the best solution that can save you time and
               money.
             </p>
-          </p>
+          </span>
         </div>
       </div>
       <div className="flex justify-center pb-11">

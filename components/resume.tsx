@@ -19,7 +19,7 @@ const Resume = () => {
             &nbsp; Education
           </p>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 September 2014 - December 2018
               </p>
@@ -34,10 +34,10 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 COMSATS University, Islamabad
               </p>
-            </p>
+            </span>
           </div>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 January 2012 - December 2014
               </p>
@@ -50,10 +50,10 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Govt. Zamindar Post Graduate College, Gujrat
               </p>
-            </p>
+            </span>
           </div>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 January 2010 - December 2012
               </p>
@@ -66,7 +66,7 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Govt. Comprehensive High School, Gujrat
               </p>
-            </p>
+            </span>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ const Resume = () => {
             &nbsp; Experience
           </p>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 July 2020 - January, 2021
               </p>
@@ -98,10 +98,10 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Crowdbotics
               </p>
-            </p>
+            </span>
           </div>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 December 2018 - Present
               </p>
@@ -116,10 +116,10 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 freelancer at Upwork
               </p>
-            </p>
+            </span>
           </div>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 February 2018 - Present
               </p>
@@ -134,10 +134,10 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Intermedia Marketing Group
               </p>
-            </p>
+            </span>
           </div>
           <div className="cursor-pointer my-2 w-96">
-            <p className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
                 July 2018 - November 2018
               </p>
@@ -152,7 +152,7 @@ const Resume = () => {
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 MTBC (now CareCloud)
               </p>
-            </p>
+            </span>
           </div>
         </div>
       </div>

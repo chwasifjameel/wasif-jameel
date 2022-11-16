@@ -57,7 +57,7 @@ const AboutMe = () => {
       <div className="flex flex-col md:flex-row items-center justify-center py-12">
         <div className="flex w-1/2 flex-col justify-center items-center md:justify-start md:items-end relative">
           <p className="flex flex-row-reverse items-center justify-start font-bold font-montserrat lg:-rotate-90 absolute left-0 top-[-30px] lg:top-[100px]">
-            <p className="text-xl text-[#3E4455]">Technical Skills</p>
+            <span className="text-xl text-[#3E4455]">Technical Skills</span>
             &nbsp;&nbsp; <span className="mt-[-12px]">____</span>
           </p>
           <div className="w-[370px]">

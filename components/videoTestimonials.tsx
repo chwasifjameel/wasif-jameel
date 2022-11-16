@@ -13,6 +13,8 @@ const News = () => {
       <div className="flex flex-col md:flex-row items-center justify-center flex-wrap my-2">
         <div className="p-6">
           <iframe
+            data-cookieblock-src="https://www.youtube.com/embed/JJIlOoLNDIM"
+            data-cookieconsent="marketing"
             width="auto"
             height="450"
             src="https://www.youtube.com/embed/JJIlOoLNDIM"
@@ -23,6 +25,8 @@ const News = () => {
         </div>
         <div className="p-6">
           <iframe
+            data-cookieblock-src="https://www.youtube.com/embed/JJIlOoLNDIM"
+            data-cookieconsent="marketing"
             width="auto"
             height="450"
             src="https://www.youtube.com/embed/04U80oJT1iI"

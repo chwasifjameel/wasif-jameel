@@ -28,7 +28,7 @@ const Resume = () => {
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
                 I took courses regarding programming fundamentals, data
-                structures, Object oriented programming and software
+                structures, Object-oriented programming and software
                 development.
               </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
@@ -91,7 +91,9 @@ const Resume = () => {
                 Web and Mobile App developer
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                Worked on a react based project and a React Native mobile app.
+                Worked on both React.js for web development and React Native for
+                app development. Also explored PubNub, Material UI, firebase,
+                and social media app development.
               </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Crowdbotics
@@ -108,6 +110,8 @@ const Resume = () => {
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
                 Completed numerous projects working as a freelancer on Upwork.
+                Worked with React.js, React Native, Node.js, Next.js, Gatsby,
+                Strapi, and many other tools.
               </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 freelancer at Upwork
@@ -124,7 +128,8 @@ const Resume = () => {
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
                 Developed many complex web applications having marketing
-                softwares and tracking involved.
+                software and tracking involved. The technology stack mainly
+                spanned React, Node, Gatsby, Tailwind, and Bootstrap.
               </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Intermedia Marketing Group

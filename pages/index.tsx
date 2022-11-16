@@ -21,7 +21,7 @@ export default function Home() {
         <title> Full Stack Developer | Wasif Jameel</title>
         <meta
           name="description"
-          content="Full Stack developer experienced in React.js, Node.js, Next.js, Typescript and JavaScript"
+          content="Full Stack developer experienced in React.js, Node.js, Next.js, Typescript, and JavaScript"
         />
       </Head>
 

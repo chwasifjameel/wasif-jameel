@@ -22,8 +22,9 @@ const Hero = () => {
                 {' '}
                 Wasif jameel{' '}
               </span>{' '}
-              Full Stack Developer, Writer, IT Consultant working around the
-              globe. Helping develop solution that can save you millons.
+              Full Stack Developer, Writer, and IT Consultant working around the
+              globe. Helping develop solutions that refine processes, save time
+              and resources.
             </p>
             <div className="bg-[#424657] text-white px-6 py-2 text-[12px] cursor-pointer lg:mt-16 mt-4 hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
               <a className="" href="mailto:wasif.jameel1@gmail.com">

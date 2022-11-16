@@ -4,16 +4,15 @@ const featuredWorkData = [
   {
     image: '/smart-tipz-website.png',
     title: 'Smart Tipz',
-    description: `Smart Tipz is a social media platform developed in Next.js. It lets user post content and earn by it.
-    Technically it has Next.js, some microservices are done in Nodejs. TailwindCSS was used to style and PostgreSQL was the primary database.`,
+    description: `Smart Tipz is a social media platform developed in Next.js.
+    It lets user post content and earns from it. Technically it has Next.js, some microservices are done in Nodejs. TailwindCSS was used to style and PostgreSQL was the primary database.`,
   },
   {
     image: '/logrocket.png',
     title: 'LogRocket',
-    description: `LogRocket is developed in Next.js. I had the pleasure to do
-  this Next.js with static site generator functionality. Blog
-  is also integrated with a CMS. Designing was done in
-  TailwindCSS.`,
+    description: `LogRocket is developed in Next.js.
+     I had the pleasure develop this project using Next.js with static site generator functionality.
+     A blog is also integrated with a CMS. Designing was done in TailwindCSS.`,
   },
   {
     image: '/gulf-academy-website.png',
@@ -24,38 +23,37 @@ const featuredWorkData = [
   {
     image: '/plural.png',
     title: 'Plural',
-    description: `Plural is developed in Next.js. I had the pleasure to do
-  this Next.js with static site generator functionality. Designing was done in
-  TailwindCSS.`,
+    description: `Plural is developed in Next.js. I had the pleasure to do develop this project in Next.js with static site generator functionality. 
+    Designing was done in TailwindCSS.`,
   },
   {
     image: '/windswep-dashboard.png',
     title: 'Windswpet Marketing',
-    description: `This is a React and Node.js based SaaS for the company. 
+    description: `Windswpet Marketing is a React and Node.js based SaaS for the company. 
     Vendors used to manage all employees and orders at one stop. It was then integrated with workbooks.`,
   },
   {
     image: '/usaveservices.png',
     title: 'U Save Services',
-    description: `This is a React/Gatsby website with template based pages using Gatsby-node. 
-    It was many marketing and tracking softwares integrated.`,
+    description: `U Save Services is a React/Gatsby website with template-based pages using Gatsby-node. 
+    It was many marketing and tracking software integrated.`,
   },
   {
     image: '/total-reviews.png',
     title: 'Total Reviews',
-    description: `This SaaS is used to manage the negative reviews for businesses. 
+    description: `Total Reviews SaaS is used to manage negative reviews for businesses. 
     It was developed in React and Node.js. PostgreSQL was used to store data.`,
   },
   {
     image: '/your-repair-experts-website.png',
     title: 'Your Repair Experts',
-    description: `This is a React/Gatsby website with template based pages using Gatsby-node. 
-    It was many marketing and tracking softwares integrated.`,
+    description: `Your Repair Experts is a React/Gatsby website with template-based pages using Gatsby-node. 
+    It was many marketing and tracking software integrated.`,
   },
   {
     image: '/2marketing-website.png',
     title: '2Marketing',
-    description: `This is a React/Gatsby website. The website is static and designed using CSS. 
+    description: `2Marketing is a React/Gatsby website. The website is static and designed using CSS. 
     It has many small animations and SVGs.`,
   },
 ];

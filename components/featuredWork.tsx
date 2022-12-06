@@ -56,6 +56,25 @@ const featuredWorkData = [
     description: `2Marketing is a React/Gatsby website. The website is static and designed using CSS. 
     It has many small animations and SVGs.`,
   },
+  {
+    image: '/law-on-demand.png',
+    title: 'Law on Demands',
+    description: `The Mobile app is developed in React Native having API in Nodejs. MongoDB was the right choice for the data strcuture.
+    Chat, Sockets, and enhanced search is part of it.`,
+  },
+  {
+    image: '/vision-platform.png',
+    title: 'Vision Platform',
+    description: `The purpose of this app was to help users monitor what are the stats and usability report of their hardware systems.
+    The Mobile app is developed in React Native. MongoDB was the right choice for the data strcuture.
+    Sockets, IoT, and real time data gathering was also part of it.`,
+  },
+  {
+    image: '/yumani.png',
+    title: 'Yumani',
+    description: `This React Native mobile app was built to enable students of Canada to work on small tasks and earn from it. 
+    The users can assign their tedious tasks to someone and save time for themselves.`,
+  },
 ];
 const FeaturedWork = () => {
   return (

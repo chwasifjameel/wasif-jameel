@@ -45,7 +45,7 @@ const Resume = () => {
                 F.Sc.
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                My majors were Mathematics, Physics, Chemistery.
+                My majors were Mathematics, Physics, Chemistry.
               </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Govt. Zamindar Post Graduate College, Gujrat
@@ -61,7 +61,7 @@ const Resume = () => {
                 Higher School Certificate in Science
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                I took Mathematics, Physics, Chemistery as my major subjects.
+                I took Mathematics, Physics, Chemistry as my major subjects.
               </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Govt. Comprehensive High School, Gujrat

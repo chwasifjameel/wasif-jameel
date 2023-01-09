@@ -85,24 +85,6 @@ const Resume = () => {
           <div className="cursor-pointer my-2 w-96">
             <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
-                December 2018 - Present
-              </p>
-              <p className="my-1 pt-2 text-lg text-start text-black  tracking-wide opacity-[0.8]">
-                Software Engineer
-              </p>
-              <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
-                Completed numerous projects working as a freelancer on Upwork.
-                Worked with React.js, React Native, Node.js, Next.js, Gatsby,
-                Strapi, and many other tools.
-              </p>
-              <p className="text-[12px] text-start text-black opacity-[0.5]">
-                freelancer at Upwork
-              </p>
-            </span>
-          </div>
-          <div className="cursor-pointer my-2 w-96">
-            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
-              <p className="text-[10px] text-start text-black opacity-[0.5]">
                 February 2018 - Present
               </p>
               <p className="my-1 pt-2 text-lg text-start text-black  tracking-wide opacity-[0.8]">
@@ -121,10 +103,28 @@ const Resume = () => {
           <div className="cursor-pointer my-2 w-96">
             <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
               <p className="text-[10px] text-start text-black opacity-[0.5]">
+                December 2018 - Present
+              </p>
+              <p className="my-1 pt-2 text-lg text-start text-black  tracking-wide opacity-[0.8]">
+                Software Engineer
+              </p>
+              <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
+                Completed numerous projects working as a freelancer on Upwork.
+                Worked with React.js, React Native, Node.js, Next.js, Gatsby,
+                Strapi, and many other tools.
+              </p>
+              <p className="text-[12px] text-start text-black opacity-[0.5]">
+                freelancer at Upwork
+              </p>
+            </span>
+          </div>
+          <div className="cursor-pointer my-2 w-96">
+            <span className="flex flex-col items-start py-6 px-4 sm:w-[400px] w-[80%] mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+              <p className="text-[10px] text-start text-black opacity-[0.5]">
                 July 2020 - January, 2021
               </p>
               <p className="my-1 pt-2 text-lg text-start text-black  tracking-wide opacity-[0.8]">
-                Web and Mobile App developer
+                Software Engineer
               </p>
               <p className="text-[12px]  text-start pb-4 text-black opacity-[0.7]">
                 Worked on both React.js for web development and React Native for

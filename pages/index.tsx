@@ -18,10 +18,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title> Full Stack Developer | Wasif Jameel</title>
+        <title> Senior Full Stack Engineer | Wasif Jameel</title>
         <meta
           name="description"
-          content="Full Stack developer experienced in React.js, Node.js, Next.js, Typescript, and JavaScript"
+          content="Senior Full Stack Engineer experienced in React.js, Node.js, Next.js, Typescript, and JavaScript. Passionate about AWS, Docker and DevOps"
         />
       </Head>
 

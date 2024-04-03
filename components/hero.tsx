@@ -22,9 +22,9 @@ const Hero = () => {
                 {' '}
                 Wasif jameel{' '}
               </span>{' '}
-              Full Stack Developer, Writer, and IT Consultant working around the
-              globe. Helping develop solutions that refine processes, save time
-              and resources.
+              Senior Full Stack Engineer, Writer, and IT Consultant taking
+              challanges everyday. Helping develop solutions that refine
+              processes, save time and resources.
             </p>
             <div className="bg-[#424657] text-white px-6 py-2 text-[12px] cursor-pointer lg:mt-16 mt-4 hover:bg-[#2f313d] hover:ease-linear hover:duration-100">
               <a className="" href="mailto:wasif.jameel1@gmail.com">
@@ -35,7 +35,7 @@ const Hero = () => {
               <a
                 href="https://www.linkedin.com/in/chwasifjameel"
                 target="__blank"
-                className="cursor-pointer mr-6 rounded rounded-full relative">
+                className="cursor-pointer mr-6 rounded-full relative">
                 <Image
                   src="/linkedin.svg"
                   alt="linkedin"
@@ -46,7 +46,7 @@ const Hero = () => {
               <a
                 href="http://twitter.com/chwasifjameel"
                 target="__blank"
-                className="cursor-pointer mr-6 rounded rounded-full relative">
+                className="cursor-pointer mr-6 rounded-full relative">
                 <Image
                   src="/twitter.svg"
                   alt="twitter"
@@ -57,7 +57,7 @@ const Hero = () => {
               <a
                 href="http://instagram.com/chwasifjameel"
                 target="__blank"
-                className="cursor-pointer rounded rounded-full relative">
+                className="cursor-pointer rounded-full relative">
                 <Image
                   src="/instagram.svg"
                   alt="instagram"

@@ -21,14 +21,19 @@ const AboutMe = () => {
             </span>
           </div>
           <p className="pt-8">
-            I&apos;m A Full Stack developer with more than five years of
-            experience building solutions. I have worked with many remote
-            companies ranging from startups to enterprises.
+            I&apos;m a Senior Full Stack Engineer with more than 6 years of
+            experience building solutions. I have helped companies grow and find
+            solutions.
           </p>
           <p className="pt-8">
-            Im concern about quality, reusability and most importantly{' '}
-            <span className="text-[#787D9A] font-semibold">value</span> while
-            developing anything.
+            Committed to continuous learning and staying up-to-date with the
+            latest industry trends. Excellent
+            <span className="text-[#787D9A] font-semibold">
+              {' '}
+              communication{' '}
+            </span>
+            and teamwork skills. Open to challenging projects in a dynamic and
+            fast-paced environment.
           </p>
 
           <div className="flex pt-8 mt-2">

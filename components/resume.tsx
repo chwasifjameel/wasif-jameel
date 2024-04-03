@@ -104,8 +104,8 @@ const Resume = () => {
                   app integrations.
                 </li>
                 <li>
-                  Automated the organization's onboarding process, reducing the
-                  time it takes to become fully operational from 6 months to
+                  Automated the organization&apos;s onboarding process, reducing
+                  the time it takes to become fully operational from 6 months to
                   just 1 week, leading to an 80% decrease in onboarding costs.
                 </li>
                 <li>
@@ -303,8 +303,9 @@ const Resume = () => {
                 </li>
                 <li>
                   Collaborated with cross-functional teams to identify logical
-                  tasks within the company's workflow, successfully resolving
-                  complex challenges and improving overall productivity.
+                  tasks within the company&apos;s workflow, successfully
+                  resolving complex challenges and improving overall
+                  productivity.
                 </li>
 
                 <li>

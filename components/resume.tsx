@@ -8,33 +8,45 @@ const experiences = [
     achivements: [
       'Revamped coding infrastructure to facilitate the transition of the existing system into a SaaS model, leading to an increase in user interest.',
       'Formulated and executed an inclusive API plan, allowing external developers access to public APIs for building new applications, resulting in a 50% surge in third-party app connections.',
-      "Automated the organization's onboarding process, reducing the time it takes to become fully operational from 6 months to just 1 week, leading to an 80% decrease in onboarding costs.",
+      "Automated the organization's onboarding procedures, slashing the time it takes to become fully operational from 6 months to just 1 week, reducing onboarding expenses by 80%.",
     ],
     skills:
       'React Native, React, Node.js, Typescript, Python, MongoDB, PostgreSQL, TailwindCSS, AWS (EC2, Lambda functions, elastic beanstalk, CI/CD, S3), Chai, Unit Testing, Jira, Github, Github Copilot, Neo4j, Docker',
+  },
+  {
+    title: 'Senior Full Stack Engineer',
+    company: 'BTLR',
+    date: 'Jan 2023 - Sept 2023',
+    achivements: [
+      'Researched and selected the optimal technology stack for core application development, resulting in a 30% increase in overall system performance metrics.',
+      'Established comprehensive coding standards and guidelines for peer programmers, resulting in a 15% decrease in code errors and a 20% increase in code efficiency.',
+      'Built code pipelines to automate deployments on EC2, S3, Elastic Beanstalks, and Lambda functions, reducing deployment time by 50% and increasing deployment frequency by 30%.',
+      'Scaled the applications to handle 1M+ of users by transitioning from macro services to microservices for better scalability',
+    ],
+    skills:
+      'React Native, React, Node.js, Typescript, MongoDB, PostgreSQL, TailwindCSS, AWS (EC2, Lambda functions, elastic beanstalk, CI/CD, Code commit, S3), Chai, Unit Testing,  Trello, Github, Github Copilot, OpenAI',
   },
   {
     title: 'Senior Full Stack Developer',
     company: 'Intermedia Marketing Group',
     date: 'Feb 2018 - Nov 2022',
     achivements: [
-      'Developed and maintained web solutions that contributed to scaling the business to a million dollars in revenue from a hundred thousand, focusing on enhancing user experience and reliability.',
-      'Implemented advanced tracking methods for user behavior, affiliate marketing, retargeting, Google Analytics, and pixel-based tracking, resulting in a 40% increase in website traffic and a 15% improvement in conversion rates.',
-      'Created visually appealing and dynamic web applications that adhere to industry standards, leading to a 20% increase in customer engagement and satisfaction.',
-      'Implemented a system to automate software testing procedures, resulting in a 30% increase in productivity and a 50% reduction in time spent on manual testing.',
+      'Developed and maintained web solutions, enhancing user experience and reliability to scale business revenue from $100K to over $1M.',
+      'Implemented advanced tracking methods for user behavior, affiliate marketing, retargeting, Google Analytics, and pixel-based tracking, increasing website traffic by 40% and improving conversion rates by 15%',
+      'Created visually appealing web applications meeting industry standards, boosting customer engagement and satisfaction by 20%.',
+      'Automated software testing procedures, leading to a 30% productivity increase and 50% less time spent on manual testing.',
     ],
     skills:
       'React.js, Node.js, Gatsby, Next.js, TypeScript, JavaScript, TailwindCSS, RedTrack, Google Services, Facebook Pixel',
   },
   {
-    title: 'Senior Full Stack Developer',
+    title: 'Full Stack Developer',
     company: 'Crowdbotics',
     date: 'Jul 2020 - Jan 2021',
     achivements: [
-      'Streamlined deployment process by creating automated build scripts for TestFlights and Android Builds, reducing review time by 50%.',
-      'Facilitated cross-functional collaboration with business, design, backend, and management teams to maintain project flow, resulting in on-time delivery of both mobile applications to the App Store / Play Store.',
-      'Utilized DevOps practices to increase stability and ensure seamless version control for both mobile applications, resulting in a 75% decrease in deployment errors.',
-      'Collaborated with different teams including business, design, backend, and management to ensure the smooth flow of the project.',
+      'Streamlined deployment process by automating build scripts for TestFlights and Android Builds, reducing review time by 50%.',
+      'Facilitated cross-functional collaboration with business, design, backend, and management teams to ensure project flow, resulting in on-time delivery of both mobile applications to the App Store / Play Store.',
+      'Implemented DevOps practices for enhanced stability and seamless version control, leading to a 75% reduction in deployment errors.',
     ],
     skills:
       'React-Native, Node.js, React.js, Socket.io, Python, PubNub, Google Cloud Messaging, OAuth, Facebook SDK',
@@ -44,9 +56,9 @@ const experiences = [
     company: 'CareCloud',
     date: 'Jun 2018 - Nov 2018',
     achivements: [
-      'Coordinated with senior leadership to develop a comprehensive roadmap for the Telemedicine application project, resulting in a successful launch.',
-      'Oversaw and facilitated over 100 pull requests and code reviews to ensure high-quality code standards were met by all team members, leading to a decrease in bugs by 15%.',
-      'Served as the primary liaison between cross-functional teams, ensuring seamless communication and collaboration throughout the development process of the Telemedicine application, resulting in an on-time delivery of the project.',
+      'Coordinated with senior leadership to develop a comprehensive roadmap for the Telemedicine application, resulting in a successful launch.',
+      'Managed and reviewed 100+ pull requests to enforce code quality standards, reducing bugs by 15%.',
+      'Acted as the key connector between cross-functional teams, guaranteeing smooth communication and collaboration for the on-time delivery of the Telemedicine application project.',
     ],
     skills:
       'Angular, Node.js, React.js, TypeScript, MySQL, CI/CD, Socket.io, Cron Jobs.',
@@ -158,29 +170,39 @@ const Resume = () => {
             </span>
             &nbsp; Experience
           </p>
-          {experiences.map(({ achivements, company, date, skills, title }) => (
-            <div className="cursor-pointer my-2 w-4/5">
-              <span className="flex flex-col items-start py-6 px-4 mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
-                <p className="text-[10px] text-start text-black opacity-[0.5]">
-                  {date}
-                </p>
-                <p className="my-1 pt-2 text-lg text-start text-black  tracking-wide opacity-[0.8]">
-                  {title}
-                </p>
-                <ul className="font-light text-sm list-disc list-inside my-2">
-                  {achivements.map((achivement) => (
-                    <li>{achivement}</li>
-                  ))}
-                </ul>
-                <p className="text-sm my-3">
-                  <b>Skills: </b> {skills}
-                </p>
-                <p className="text-base text-start text-black opacity-[0.5]">
-                  {company}
-                </p>
-              </span>
-            </div>
-          ))}
+          {experiences.map(
+            (
+              { achivements, company, date, skills, title },
+              experienceIndex
+            ) => (
+              <div
+                className="cursor-pointer my-2 w-4/5"
+                key={`experience-${experienceIndex}`}>
+                <span className="flex flex-col items-start py-6 px-4 mx-auto bg-[#EDF1FD] text-[#737998] border border-gray-200 shadow-md  hover:scale-[1.1] ease-in duration-100">
+                  <p className="text-[10px] text-start text-black opacity-[0.5]">
+                    {date}
+                  </p>
+                  <p className="my-1 pt-2 text-lg text-start text-black  tracking-wide opacity-[0.8]">
+                    {title}
+                  </p>
+                  <ul className="font-light text-sm list-disc list-inside my-2">
+                    {achivements.map((achivement, achivementIndex) => (
+                      <li
+                        key={`experience-${experienceIndex}-achivement-${achivementIndex}`}>
+                        {achivement}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-sm my-3">
+                    <b>Skills: </b> {skills}
+                  </p>
+                  <p className="text-base text-start text-black opacity-[0.5]">
+                    {company}
+                  </p>
+                </span>
+              </div>
+            )
+          )}
         </div>
       </div>
     </section>

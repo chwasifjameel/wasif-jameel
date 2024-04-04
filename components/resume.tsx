@@ -108,13 +108,13 @@ const Resume = () => {
                   the time it takes to become fully operational from 6 months to
                   just 1 week, leading to an 80% decrease in onboarding costs.
                 </li>
-                <li>
-                  <b>Skills</b>React Native, React, Node.js, Typescript, Python,
-                  MongoDB, PostgreSQL, TailwindCSS, AWS (EC2, Lambda functions,
-                  elastic beanstalk, CI/CD, S3), Chai, Unit Testing, Jira,
-                  Github, Github Copilot, Neo4j, Docker
-                </li>
               </ul>
+              <p className="text-sm my-3">
+                <b>Skills: </b> React Native, React, Node.js, Typescript,
+                Python, MongoDB, PostgreSQL, TailwindCSS, AWS (EC2, Lambda
+                functions, elastic beanstalk, CI/CD, S3), Chai, Unit Testing,
+                Jira, Github, Github Copilot, Neo4j, Docker
+              </p>
               <p className="text-base text-start text-black opacity-[0.5]">
                 BTLR
               </p>
@@ -149,13 +149,13 @@ const Resume = () => {
                   transitioning from macro services to microservices for better
                   scalability.
                 </li>
-                <li>
-                  <b>Skills</b>React Native, React, Node.js, Typescript,
-                  MongoDB, PostgreSQL, TailwindCSS, AWS (EC2, Lambda functions,
-                  elastic beanstalk, CI/CD, Code commit, S3), Chai, Unit
-                  Testing, Trello, Github, Github Copilot, OpenAI,
-                </li>
               </ul>
+              <p className="text-sm my-3">
+                <b>Skills: </b> React Native, React, Node.js, Typescript,
+                MongoDB, PostgreSQL, TailwindCSS, AWS (EC2, Lambda functions,
+                elastic beanstalk, CI/CD, Code commit, S3), Chai, Unit Testing,
+                Trello, Github, Github Copilot, OpenAI,
+              </p>
               <p className="text-base text-start text-black opacity-[0.5]">
                 BTLR
               </p>
@@ -193,12 +193,13 @@ const Resume = () => {
                   resulting in a 30% increase in productivity and a 50%
                   reduction in time spent on manual testing.
                 </li>
-                <li>
-                  <b>Skills</b>React.js, Node.js, Gatsby, Next.js, TypeScript,
-                  JavaScript, TailwindCSS, RedTrack, Google Services, Facebook
-                  Pixel
-                </li>
               </ul>
+              <p className="text-sm my-3">
+                <b>Skills: </b> React.js, Node.js, Gatsby, Next.js, TypeScript,
+                JavaScript, TailwindCSS, RedTrack, Google Services, Facebook
+                Pixel
+              </p>
+
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Intermedia Marketing Group
               </p>
@@ -234,11 +235,11 @@ const Resume = () => {
                   backend, and management to ensure the smooth flow of the
                   project.
                 </li>
-                <li>
-                  <b>Skills</b>React-Native, Node.js, React.js, Socket.io,
-                  Python, PubNub, Google Cloud Messaging, OAuth, Facebook SDK
-                </li>
               </ul>
+              <p className="text-sm my-3">
+                <b>Skills: </b> React-Native, Node.js, React.js, Socket.io,
+                Python, PubNub, Google Cloud Messaging, OAuth, Facebook SDK
+              </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Crowdbotics
               </p>
@@ -270,12 +271,11 @@ const Resume = () => {
                   the development process of the Telemedicine application,
                   resulting in an on-time delivery of the project.
                 </li>
-
-                <li>
-                  <b>Skills</b>Angular, Node.js, React.js, TypeScript, MySQL,
-                  CI/CD, Socket.io, Cron Jobs.
-                </li>
               </ul>
+              <p className="text-sm my-3">
+                <b>Skills: </b> Angular, Node.js, React.js, TypeScript, MySQL,
+                CI/CD, Socket.io, Cron Jobs.
+              </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 CareCloud
               </p>
@@ -307,12 +307,11 @@ const Resume = () => {
                   resolving complex challenges and improving overall
                   productivity.
                 </li>
-
-                <li>
-                  <b>Skills</b>Angular, Node.js, React.js, TypeScript, MySQL,
-                  Python, MongoDB
-                </li>
               </ul>
+              <p className="text-sm my-3">
+                <b>Skills: </b> Angular, Node.js, React.js, TypeScript, MySQL,
+                Python, MongoDB
+              </p>
               <p className="text-[12px] text-start text-black opacity-[0.5]">
                 Bitsol Technologies
               </p>

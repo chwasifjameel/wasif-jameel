@@ -8,23 +8,16 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
+      <Script
+        type="text/javascript"
+        src="https://www.googletagmanager.com/gtag/js?id=G-7EYEJD1P4P"
+      />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-7EYEJD1P4P');
-        `}
-      </Script>
-      <Script
-        type="text/javascript"
-        src="https://cdn.weglot.com/weglot.min.js"
-      />
-      <Script id="weglot-initialization">
-        {`
-          Weglot.initialize({
-            api_key: 'wg_d41c91e00c0096e0d5329d30f3ba1b5d7'
-          });
+          gtag('js', new Date());
+          gtag('config', 'G-7EYEJD1P4P');
         `}
       </Script>
       <Component {...pageProps} />

@@ -31,18 +31,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         `}
       </Script>
 
-      <Script
-        src="https://cdn.weglot.com/weglot.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script id="weglot-init" strategy="afterInteractive">
-        {`
-          Weglot.initialize({
-            api_key: 'wg_d41c91e00c0096e0d5329d30f3ba1b5d7'
-          });
-        `}
-      </Script>
-
       <Component {...pageProps} />
     </Layout>
   );

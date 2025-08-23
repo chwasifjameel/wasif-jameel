@@ -30,18 +30,30 @@ function MyApp({ Component, pageProps }: AppProps) {
           gtag('config', 'G-7EYEJD1P4P');
         `}
       </Script>
-      <Script id="weglot" strategy="afterInteractive">
+      <Script
+        id="weglot-script"
+        strategy="afterInteractive"
+        src="https://cdn.weglot.com/weglot.min.js"></Script>
+      <Script id="weglot-initialize" strategy="afterInteractive">
         {`
-          <link rel="alternate" hreflang="en" href="https://www.wasifjameel.com">
-<link rel="alternate" hreflang="fr" href="https://fr.wasifjameel.com">
-<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_208776b0ba35e1a2f73b77b53465cd0f0'
-    });
-</script>
+          Weglot.initialize({
+            api_key: 'wg_208776b0ba35e1a2f73b77b53465cd0f0'
+          });
         `}
       </Script>
+
+      {/* <Script id="weglot" strategy="afterInteractive">
+        {`
+          <link rel="alternate" hreflang="en" href="https://www.wasifjameel.com" />
+          <link rel="alternate" hreflang="fr" href="https://fr.wasifjameel.com" />
+          <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+          <script>
+            Weglot.initialize({
+            api_key: 'wg_208776b0ba35e1a2f73b77b53465cd0f0'
+            });
+          </script>
+        `}
+      </Script> */}
 
       <Component {...pageProps} />
     </Layout>

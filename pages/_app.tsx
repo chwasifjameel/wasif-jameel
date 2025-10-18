@@ -50,11 +50,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           Lingrix.init({
             apiKey: '16020811-ad76-455a-a4d2-0cc7468261be',
 
-            endpoints: {
-              widget: 'http://localhost:6500/api/public/widget/',
-              translation:
-                'http://localhost:6500/api/public/yo-page-translations/',
-            },
+            // endpoints: {
+            //   widget: 'http://localhost:6500/api/public/widget/',
+            //   translation:
+            //     'http://localhost:6500/api/public/yo-page-translations/',
+            // },
           });
         }}
       />

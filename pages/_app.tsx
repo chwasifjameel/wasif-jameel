@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           gtag('config', 'G-7EYEJD1P4P');
         `}
       </Script>
-      <Script
+      {/* <Script
         id="weglot-script"
         strategy="afterInteractive"
         src="https://cdn.weglot.com/weglot.min.js"></Script>
@@ -40,7 +40,24 @@ function MyApp({ Component, pageProps }: AppProps) {
             api_key: 'wg_208776b0ba35e1a2f73b77b53465cd0f0'
           });
         `}
-      </Script>
+      </Script> */}
+
+      <Script
+        src="https://language-switcher-widget.lingrix.workers.dev/script.js"
+        onLoad={() => {
+          const Lingrix = (window as any).Lingrix || {};
+          console.log('Lingrix script loaded');
+          Lingrix.init({
+            apiKey: '16020811-ad76-455a-a4d2-0cc7468261be',
+
+            endpoints: {
+              widget: 'http://localhost:6500/api/public/widget/',
+              translation:
+                'http://localhost:6500/api/public/yo-page-translations/',
+            },
+          });
+        }}
+      />
 
       {/* <Script id="weglot" strategy="afterInteractive">
         {`

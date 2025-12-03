@@ -43,20 +43,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Script> */}
 
       <Script
-        src="https://language-switcher-widget.lingrix.workers.dev/script.js"
-        onLoad={() => {
-          const Lingrix = (window as any).Lingrix || {};
-          console.log('Lingrix script loaded');
-          Lingrix.init({
-            apiKey: '16020811-ad76-455a-a4d2-0cc7468261be',
-
-            // endpoints: {
-            //   widget: 'http://localhost:6500/api/public/widget/',
-            //   translation:
-            //     'http://localhost:6500/api/public/yo-page-translations/',
-            // },
-          });
-        }}
+        src="https://cdn.lingrix.com/script.js"
+        defer
+        data-lingrix-key="fb2c922f-6a3a-450f-a63d-c9c3a415c7c8"
       />
 
       {/* <Script id="weglot" strategy="afterInteractive">

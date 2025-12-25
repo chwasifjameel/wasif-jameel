@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Script
         src="https://cdn.lingrix.com/script.js"
         defer
-        data-lingrix-id="fb2c922f-6a3a-450f-a63d-c9c3a415c7c8"
+        data-lingrix-id="4301b85d-3417-4153-ab40-7442b5e462b8"
       />
 
       {/* <Script id="weglot" strategy="afterInteractive">

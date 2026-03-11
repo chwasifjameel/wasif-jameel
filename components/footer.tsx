@@ -16,6 +16,13 @@ const Footer = () => {
           >
             Read the Lingrix founder story
           </Link>
+          . How we built{" "}
+          <Link
+            href="/how-toolsify-build"
+            className="font-medium text-sky-600 hover:text-sky-700 underline decoration-sky-200"
+          >
+            Toolsify
+          </Link>
           .
         </p>
       </div>

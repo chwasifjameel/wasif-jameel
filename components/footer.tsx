@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -9,14 +9,14 @@ const Footer = () => {
           Reserved.
         </p>
         <p className="text-sm text-gray-600">
-          Curious how we built Lingrix?{" "}
+          Curious how we built Lingrix?{' '}
           <Link
             href="/joruney-of-lingrix"
             className="font-medium text-sky-600 hover:text-sky-700 underline decoration-sky-200"
           >
             Read the Lingrix founder story
           </Link>
-          . How we built{" "}
+          . How we built{' '}
           <Link
             href="/how-toolsify-build"
             className="font-medium text-sky-600 hover:text-sky-700 underline decoration-sky-200"
